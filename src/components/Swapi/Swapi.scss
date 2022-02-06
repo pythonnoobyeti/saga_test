@@ -1,0 +1,45 @@
+.swapi {
+  margin-top: 20px;
+}
+
+.swapi__title {
+  color: white;
+  text-align: center;
+}
+
+.swapi__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.swapi__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 20px 0;
+}
+
+.swapi__info-item {
+  font-size: 20px;
+  width: 600px;
+  padding: 20px;
+  border: 2px solid #6c757d;
+  border-radius: 5px;
+  margin: 20px 0 0 0;
+  background-color: #e8f6a5ba;
+}
+
+.info-enter {
+  transform: translateX(-100px);
+}
+.info-enter-active {
+  transform: translateX(0);
+  transition: all 0.5s;
+}
+// .info-exit {
+//   opacity: 1;
+// }
+// .info-exit-active {
+//   transform: translateX(100px);
+//   transition: all 0.5s;
+// }

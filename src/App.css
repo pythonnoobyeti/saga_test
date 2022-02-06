@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: url('./img//bg.jpg') 0 0 / 100% no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  padding: 1rem 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}

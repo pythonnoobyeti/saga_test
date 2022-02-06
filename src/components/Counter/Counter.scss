@@ -1,0 +1,20 @@
+.counter__current-value {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.counter__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  min-width: 100px;
+  margin: 0 0 0 20px;
+  font-size: 20px;
+
+  &:first-child {
+    margin: 0;
+  }
+}
