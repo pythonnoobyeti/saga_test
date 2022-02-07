@@ -16,14 +16,14 @@ const Swapi = () => {
       <h1 className="swapi__title">Star Wars information</h1>
       <div className="swapi__buttons">
         <button
-          onClick={async () => dispath(getCharacterAync(info))}
+          onClick={async () => dispath(getCharacterAync())}
           type="button"
           className="button__zero btn btn-warning"
         >
           Characters
         </button>
         <button
-          onClick={async () => dispath(getPlanetsAync(info))}
+          onClick={async () => dispath(getPlanetsAync())}
           type="button"
           className="button__zero btn btn-info"
         >

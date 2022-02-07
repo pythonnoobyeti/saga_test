@@ -6,16 +6,14 @@ export const setInformation = (data) => {
   };
 };
 
-export const getCharacterAync = (data) => {
+export const getCharacterAync = () => {
   return {
     type: "GET_CHARACTER_ASYNC",
-    data,
   };
 };
 
-export const getPlanetsAync = (data) => {
+export const getPlanetsAync = () => {
   return {
     type: "GET_PLANETS_ASYNC",
-    data,
   };
 };
